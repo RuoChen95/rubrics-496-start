@@ -1,0 +1,16 @@
+/* add your CSS here */
+h3+img{
+	width:300px;
+}
+p{
+	font-style: italic;
+}
+ul{
+	font-weight: bold;
+	list-style-type: none;
+}
+
+h3, img, ul{
+	border: solid 2px red;
+	padding:10px;
+}
