@@ -1,16 +1,31 @@
 /* add your CSS here */
-h3+img{
-	width:300px;
+img{
+	width:340px;
 }
 p{
 	font-style: italic;
 }
 ul{
-	font-weight: bold;
 	list-style-type: none;
 }
-
-h3, img, ul{
-	border: solid 2px red;
+span{
+	font-weight: bold;
+}
+h3, p, img, ul{
 	padding:10px;
+	margin:0;
+}
+h3{
+	margin:0;
+	padding-top: 20px;
+}
+div.card{
+	border: solid 1px gray;
+	width: 360px;
+	box-shadow: 5px 5px 5px #777;
+}
+div.content{
+	width: 340px;
+	border: solid 1px gray;
+	margin:0 auto 10px auto;
 }
